@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p" xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+    <bean id="hello" class="com.soft1851.spring.ioc.entity.Hello"/>
+    <bean id="phone1" class="com.soft1851.spring.ioc.entity.Phone" p:brand="iPhone11" p:price="6666"/>
+    <bean id="phone2" class="com.soft1851.spring.ioc.entity.Phone" p:brand="iPhoneXS Max" p:price="8666"/>
+    <bean id="student" class="com.soft1851.spring.ioc.entity.Student" p:id="1001" p:name="Tom">
+        <context:component-scan base-package="com.soft1851.spring.ioc.config"/>
+        <property name="hobbies">
+            <list>
+                <value>打游戏</value>
+                <value>运动</value>
+                <value>编程</value>
+            </list>
+        </property>
+        <property name="phones">
+            <list>
+                <ref bean="phone1" />
+                <ref bean="phone2" />
+            </list>
+        </property>
+    </bean>
+</beans>
