@@ -2,27 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce3452c-5ec5-4bc7-be56-c0af7768b485" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/logs/error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/logs/main.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/app/BookTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/app/StudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/entity/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/entity/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/entity/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/resources/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/entity/HelloTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/entity/StudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/main.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RADME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/entity/BookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/target/classes/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/app/BookTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/app/StudentTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/config/AppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/entity/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/entity/Hello.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/entity/Phone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/entity/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/target/classes/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/target/test-classes/META-INF/ioc.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/target/test-classes/com/soft1851/spring/ioc/entity/HelloTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/target/test-classes/com/soft1851/spring/ioc/entity/StudentTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/main/resources/benas.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/resources/beans.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +30,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -86,9 +83,6 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.soft1851.spring.ioc.config" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.soft1851.spring.ioc.entity" />
     </key>
@@ -99,6 +93,10 @@
       <recent name="com.soft1851.spring.ioc.entity" />
       <recent name="com.soft1851.spring.ioc.entity.Phone" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dev\maven-project\spring-learning" />
+      <recent name="D:\dev\maven-project\spring-learning\ioc\src\main\resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\dev\maven-project\spring-learning\ioc\src\test\java" />
       <recent name="D:\dev\maven-project\spring-learning\ioc\src\main\java" />
@@ -107,12 +105,11 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.soft1851.spring.ioc.entity.User" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\dev\maven-project\spring-learning\ioc\src\main\resources" />
-      <recent name="D:\dev\maven-project\spring-learning" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.soft1851.spring.ioc.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BookTest">
+  <component name="RunManager" selected="JUnit.BookTest">
     <configuration name="BookTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.app.BookTest" />
       <module name="ioc" />
@@ -187,8 +184,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BookTest" />
         <item itemvalue="JUnit.BookTest" />
+        <item itemvalue="Application.BookTest" />
         <item itemvalue="JUnit.StudentTest.test" />
         <item itemvalue="Application.StudentTest" />
         <item itemvalue="JUnit.StudentTest (1)" />
@@ -209,8 +206,17 @@
       <option name="presentableId" value="Default" />
       <updated>1584404473724</updated>
       <workItem from="1584404486455" duration="7423000" />
-      <workItem from="1584418155248" duration="5734000" />
+      <workItem from="1584418155248" duration="5774000" />
+      <workItem from="1584425684508" duration="1517000" />
     </task>
+    <task id="LOCAL-00001" summary="book">
+      <created>1584425615152</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584425615152</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +224,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="book" />
+    <option name="LAST_COMMIT_MESSAGE" value="book" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1026" y="178" key="#Project_Structure" timestamp="1584409579471">
@@ -240,34 +248,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1213" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1584407763746" />
+    <state x="977" y="111" key="CommitChangelistDialog2" timestamp="1584425613038">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="977" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584425613038" />
     <state x="1201" y="274" key="FileChooserDialogImpl" timestamp="1584405592606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1201" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584405592606" />
-    <state width="1048" height="279" key="GridCell.Tab.0.bottom" timestamp="1584425375105">
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1584428501571">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1048" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584425375105" />
-    <state width="1048" height="279" key="GridCell.Tab.0.center" timestamp="1584425375105">
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584428501571" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1584428501570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1048" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584425375105" />
-    <state width="1048" height="279" key="GridCell.Tab.0.left" timestamp="1584425375105">
+    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584428501570" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1584428501570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1048" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584425375105" />
-    <state width="1048" height="279" key="GridCell.Tab.0.right" timestamp="1584425375105">
+    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584428501570" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1584428501570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1048" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584425375105" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584428501570" />
     <state x="922" y="161" key="SettingsEditor" timestamp="1584405610060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584405610060" />
-    <state x="1194" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584412028362">
+    <state x="969" y="252" key="Vcs.Push.Dialog.v2" timestamp="1584425623503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1194" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584412028362" />
+    <state x="969" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584425623503" />
+    <state x="1194" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584427857463">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1194" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584427857463" />
     <state x="669" y="214" key="new project wizard" timestamp="1584404871887">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
