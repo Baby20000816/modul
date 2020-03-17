@@ -1,6 +1,8 @@
 package com.soft1851.spring.ioc.entity;
 
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * @author jh_wu
@@ -13,13 +15,15 @@ public class Student {
     private Integer id;
     private String name;
     private List<String> hobbies;
-    private List<Phone>phones;
+    private Set<Phone> phones;
+    private Map<String,Phone> phoneMap;
 
-    public Student(Integer id, String name, List<String> hobbies, List<Phone> phones) {
+    public Student(Integer id, String name, List<String> hobbies, Set<Phone> phones, Map<String, Phone> phoneMap) {
         this.id = id;
         this.name = name;
         this.hobbies = hobbies;
         this.phones = phones;
+        this.phoneMap = phoneMap;
     }
 
     public Student() {
@@ -49,12 +53,20 @@ public class Student {
         this.hobbies = hobbies;
     }
 
-    public List<Phone> getPhones() {
+    public Set<Phone> getPhones() {
         return phones;
     }
 
-    public void setPhones(List<Phone> phones) {
+    public void setPhones(Set<Phone> phones) {
         this.phones = phones;
+    }
+
+    public Map<String, Phone> getPhoneMap() {
+        return phoneMap;
+    }
+
+    public void setPhoneMap(Map<String, Phone> phoneMap) {
+        this.phoneMap = phoneMap;
     }
 
     @Override
@@ -64,6 +76,7 @@ public class Student {
                 ", name='" + name + '\'' +
                 ", hobbies=" + hobbies +
                 ", phones=" + phones +
+                ", phoneMap=" + phoneMap +
                 '}';
     }
 }
