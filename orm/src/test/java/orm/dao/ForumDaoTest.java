@@ -1,7 +1,7 @@
 package orm.dao;
 
-import com.soft1851.spring.ioc.config.SpringDataSourceConfig;
-import com.soft1851.spring.ioc.entity.Forum;
+import com.soft1851.spring.orm.config.*;
+import com.soft1851.spring.orm.entity.Forum;
 import com.soft1851.spring.orm.dao.ForumDao;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -16,7 +16,9 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = {SpringDataSourceConfig.class})
+@ContextConfiguration(locations = {"/applicationContext.xml"})
+//@ContextConfiguration(classes = {SpringDataSourceConfig.class})
+
 public class ForumDaoTest {
 @Autowired
 private ForumDao forumDao;
@@ -41,13 +43,13 @@ private ForumDao forumDao;
 
     @Test
     public void delete() {
-        int n = forumDao.delete(6);
+        int n = forumDao.delete(16);
         assertEquals(1,n);
     }
 
     @Test
     public void update() {
-        Forum forum = forumDao.get(6);
+        Forum forum = forumDao.get(17);
         forum.setForumName("测试论坛修改新的名称");
         int n = forumDao.update(forum);
         assertEquals(1,n);
@@ -55,7 +57,7 @@ private ForumDao forumDao;
 
     @Test
     public void get() {
-        Forum forum = forumDao.get(1);
+        Forum forum = forumDao.get(17);
         assertNotNull(forum);
         System.out.println(forum);
     }
@@ -63,7 +65,7 @@ private ForumDao forumDao;
     @Test
     public void selectAll() {
         List<Forum> forums = forumDao.selectAll();
-        assertEquals(6,forums.size());
+        assertEquals(15,forums.size());
 //        System.out.println(forums);
     }
 }

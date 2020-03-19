@@ -1,6 +1,6 @@
 package orm.entity;
 
-import com.soft1851.spring.ioc.config.AppConfig;
+import com.soft1851.spring.orm.config.AppConfig;
 import com.soft1851.spring.orm.entity.Forum;
 import org.junit.Test;
 import org.junit.runner.RunWith;

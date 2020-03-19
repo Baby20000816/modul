@@ -2,10 +2,12 @@ package com.soft1851.spring.orm.dao.impl;
 
 import com.soft1851.spring.orm.dao.ForumDao;
 import com.soft1851.spring.orm.entity.Forum;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BatchPreparedStatementSetter;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
@@ -18,16 +20,18 @@ import java.util.List;
  * @Date 2020/3/17:15:20
  * @Version 1.0
  **/
-@Component
+//@Component
+    @Repository
 public class ForumDaoImpl implements ForumDao {
+        @Autowired
     private JdbcTemplate jdbcTemplate;
-
-    public ForumDaoImpl(JdbcTemplate jdbcTemplate) {
-        this.setJdbcTemplate(jdbcTemplate);
-    }
-    public void setJdbcTemplate(JdbcTemplate jdbcTemplate){
-        this.jdbcTemplate = jdbcTemplate;
-    }
+//
+//    public ForumDaoImpl(JdbcTemplate jdbcTemplate) {
+//        this.setJdbcTemplate(jdbcTemplate);
+//    }
+//    public void setJdbcTemplate(JdbcTemplate jdbcTemplate){
+//        this.jdbcTemplate = jdbcTemplate;
+//    }
 
     @Override
     public int insert(Forum forum) {
